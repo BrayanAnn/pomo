@@ -1,0 +1,58 @@
+/* CABEÇALHO */
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.831);
+}
+/* CORPO */
+.box{
+    font-family: arial;
+    font-size: 24px;
+    color: white;
+    padding: 1rem;
+    width: 30vw;
+    min-width: 260px;
+    height: 25%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 5px 5px 20px 0px rgba(122,122,122,1);
+    -moz-box-shadow: 5px 5px 20px 0px rgba(122,122,122,1);
+    box-shadow: 5px 5px 20px 0px rgba(122,122,122,1);
+}
+
+.box_header{
+    text-align: center;
+    
+    
+}
+
+.box_time{
+    font-size: 6rem;
+    margin: auto auto;
+    align-items: center;
+}
+
+.box_options{
+    margin: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_options button{
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.338);
+    width: 30%;
+    min-width: 4rem;
+}
+
